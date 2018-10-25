@@ -1,0 +1,75 @@
+<view>
+
+<web-view src="http://localhost:8090/"></web-view>
+
+  <swiper indicator-dots="{{true}}" autoplay="{{true}}" interval="2000" duration="1000">
+    <swiper-item>
+      <view class="swipter_item bc_purple"> </view>
+    </swiper-item>
+    <swiper-item>
+      <view class="swipter_item bc_green"> </view>
+    </swiper-item>
+    <swiper-item>
+      <view class="swipter_item bbc_pinkc_purple"> </view>
+    </swiper-item>
+  </swiper>
+
+
+
+  <view class=' desc '>横向排列视图</view>
+
+  <view class='flex_wrap ' style="height:100px; flex-direction:row ">
+    <view class='flex_item bc_purple '> </view>
+    <view class='flex_item bc_green '> </view>
+    <view class='flex_item bbc_pinkc_purple '> </view>
+  </view>
+
+  <view class='desc '>纵向排列视图</view>
+
+  <view class='flex_wrap ' style="height:300px; flex-direction:column ">
+    <view class='flex_item bc_purple '> </view>
+    <view class='flex_item bc_green '> </view>
+    <view class='flex_item bbc_pinkc_purple '> </view>
+
+    <button class='"qqqq"'>阿斯达要</button>
+  </view>
+
+
+  <view class='container'>
+    <icon type="success" size="30" color="#FF404F"> </icon>
+    <icon type="success_no_circle" size="30" color='#FFAEB9'></icon>
+    <icon type="info" size="30" color='#FFAEB9'></icon>
+    <icon type="warn" size="30" color='#FFAEB9'></icon>
+    <icon type="waiting" size="30" color='#FFAEB9'></icon>
+    <icon type="cancle" size="30" color='#FFAEB9'></icon>
+    <icon type="download" size="30" color='#FFAEB9'></icon>
+    <icon type="search" size="30" color='#FFAEB9'></icon>
+    <icon type="clear" size="30" color='#FFAEB9'></icon>
+  </view>
+
+
+  <view class='container'>
+    <text>这是一个文本</text>
+  </view>
+
+  <view class="container">
+
+    <progress percent='60' color='red' stroke-width='6' active='{{true}}' show-info='{{true}}'></progress>
+  </view>
+
+  <view>
+    <view>{{message}}</view>
+    <view id="item-{{id}}">测试组件属性绑定123456</view>
+    <view wx:if="{{condition}}">测试条件控制</view>
+    <view class="sub-view">测试关键字绑定使用</view>
+    <view class="sub-view" hidden="{{condition?true:false}}">测试三末运算</view>
+    <view class="sub-view">{{a+b-c}}</view>
+    <view class="sub-view" wx:if="{{a>1}}">{{"hello,"+name}}}</view>
+    <view class="sub-view" wx:if="{{a>1}}">逻辑判断</view>
+
+
+ 
+
+  </view>
+
+</view>

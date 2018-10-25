@@ -1,0 +1,66 @@
+
+.desc {
+        background-color: pink;
+        color: deeppink;
+        font-size: 18px;
+        padding: 10px;
+        height: 40px;
+        margin-left: 150px;
+}
+
+.qqqq {
+        background-color: pink;
+        color: deeppink;
+        font-size: 18px;
+        padding: 10px;
+        height: 40px;
+        margin-left: 150px;
+}
+
+.flex_wrap {
+        display: flex;
+}
+
+.flex_item {
+        display: flex;
+        justify-content: center;
+        background-color: lightgray;
+        border: 1px solid orange;
+        width: 100px;
+        height: 100px;
+}
+
+.bc_purple {
+        background-color: palevioletred;
+}
+
+.bc_green {
+        background-color: greenyellow;
+}
+
+.bc_pink {
+        background-color: pink;
+}
+
+.swipter_item {
+        display: flex;
+        justify-content: center;
+        border: 1px solid orange;
+        height: 200px;
+}
+
+.container {
+        height: 60px;
+        padding: 10px;
+}
+
+#item-test{
+  color: deeppink;
+  font-family: 'Times New Roman', Times, serif
+}
+
+.sub-view{
+  color: red;
+  padding-top: 10px;
+  padding-bottom: 10px
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html class="ui-page-login">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport"
+	content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+
+
+<meta name="keywords" content="keyword1,keyword2,keyword3">
+<meta name="description" content="this is my page">
+<meta name="content-type" content="text/html; charset=UTF-8">
+<title></title>
+<!-- 	<link href="css/mui.min.css" rel="stylesheet" />
+		<link href="css/style.css" rel="stylesheet" />
+ -->
+<style>
+.link-area {
+	display: block;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	text-align: center;
+}
+
+.footer {
+	position: fixed;
+	font-size: 14px;
+	color: #777777;
+	text-align: center;
+	width: 100%;
+	background: #f0f0f0;
+	bottom: 0px;
+}
+
+}
+.spliter {
+	color: #bbb;
+	padding: 0px 8px;
+}
+
+.oauth-area {
+	position: absolute;
+	bottom: 20px;
+	left: 0px;
+	text-align: center;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+
+.oauth-area .oauth-btn {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	background-size: 30px 30px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	margin: 0px 20px;
+	/*-webkit-filter: grayscale(100%); */
+	border: solid 1px #ddd;
+	border-radius: 25px;
+}
+
+.mui-title {
+	text-align: center;
+}
+</style>
+
+</head>
+
+<body>
+	<header class="mui-bar mui-bar-nav">
+
+		<h3 class="mui-title">熊与蝴蝶</h3>
+	</header>
+
+
+	<div class="link-area">
+		<video id="video1" 	width="100%"    controls="controls" autoplay="autoplay" loop="loop">
+			<source src="../video/mov_bbb.mp4"
+				type="video/mp4">
+			<source src="../video/mov_bbb.mp4"
+				type="video/ogg">
+
+		</video>
+
+		<!-- <button onclick="playVid()" type="button">播放视频</button> <button onclick="pauseVid()" type="button">暂停视频</button>
+		  -->
+	</div>
+
+
+
+	<div class="footer">
+		<hr>
+		<br>
+		<p>版权所有：广州泰富信通科技有限公司 备案序号：粤ICP备11015778号-4</p>
+		<p>2003 - 2019 copyright(c). all rights reserved.</p>
+	</div>
+
+
+
+</body>
+
+
+<script>
+	var myVideo = document.getElementById("video1");
+
+	function playVid() {
+		myVideo.play();
+	}
+
+	function pauseVid() {
+		myVideo.pause();
+	}
+</script>
+</html>
